@@ -1,0 +1,212 @@
+:root{
+    --mainColor:#F53838;
+}
+
+body{
+        font-family: "Rubik", sans-serif;
+}
+
+.imglogo{
+    width: 22px;
+}
+.navbar a{
+    color: black;
+}
+.navbar a:hover ,.navbar a:focus{
+color: black;
+}
+.btn-SignUp{
+    background-color: white;
+    color: var(--mainColor);
+    font-weight: bolder;
+    border: var(--mainColor) solid 1px;
+    margin-left: 12px;
+}
+.btn-SignUp:hover{
+    background-color: var(--mainColor);
+    color: white;
+}
+.btn-SignIn{
+    background-color: white;
+    border: white solid 1px;
+    font-weight: bolder;
+
+
+}
+.btn:focus{
+    box-shadow: none;
+}
+.bg-btn{
+    background-color: var(--mainColor);
+    color: white;
+}
+.bg-btn:hover{
+    background-color: white;
+    color: var(--mainColor);
+    border: var(--mainColor) solid 1px;
+}
+.contentHome h1{
+    max-width: 450px;
+}
+.Icon-user i{
+    color: var(--mainColor);
+}
+@media screen and (max-width:1000px){
+    .ImgHome img{
+        width: 60%;
+        margin-top: 20px;
+    }
+}
+.aboutContent h3{
+max-width: 350px;
+}
+.aboutContent p i{
+    background-color: #2FAB73;
+    border-radius: 50%;
+    color: white;
+}
+.list-group-item {
+    border: none;
+    color: #4F5665;
+}
+.list-group-item i{
+    color: #2FAB73;
+}
+.contentPlan{
+    border:white 2px solid;
+    box-shadow: inset;
+    border-radius: 15px;
+    transition: all .5s;
+    width: 94%;
+
+}
+.contentPlan:hover {
+    border: var(--mainColor) solid 2px;
+
+}
+.contentPlan:hover .btn-SignUp{
+    background-color: var(--mainColor);
+    color: white;
+}
+.headingPlan p{
+    max-width: 600px;
+    margin: auto;
+}
+.headingVPN h4{
+    max-width: 270px;
+    margin:13px auto;
+}
+.headingVPN p{
+    max-width: 550px;
+    margin: auto;
+}
+.imgVPN img{
+    width: 45%;
+}
+
+.carousel-indicators{
+    margin-right: auto;
+    right: 90%;
+    margin-left: auto;
+}
+
+.carousel-indicators [data-bs-target]{
+    border-radius: 24%;
+    border-bottom: none;
+    border-top: none;
+    width: 22px;
+    height: 9px;
+}
+.carousel-indicators .active{
+    background-color: var(--mainColor);
+}
+
+.carousel-control-prev{
+    left: 86%;
+}
+.carousel-control-next{
+    right: 6%;
+}
+
+.carousel-control-next ,.carousel-control-prev{
+    top: 85%;
+    width: fit-content;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 22px;
+}
+
+.myTeam button i{
+
+    border: 2px solid var(--mainColor);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--mainColor);
+}
+
+.myTeam button i:hover{
+    background-color: var(--mainColor);
+    color: white;
+}
+.Iconteam p i{
+    color: gold;
+}
+
+.content-teamHover{
+    border: solid 1px transparent;
+    background-color: transparent;
+    transition: all .7s;
+}
+.content-teamHover:hover{
+    border: 1px solid var(--mainColor);
+}
+
+@media screen and (max-width:1215px){
+    .myTeam button i{
+        display: none;
+    }
+}
+
+
+
+.contentSub h4{
+max-width: 280px;
+font-weight: bold;
+}
+
+.BtnSub{
+    text-align: center;
+}
+
+@media screen and (max-width:995px){
+
+
+    .content-teamHover{
+        margin-top: 35px;
+        display: block;
+        width: 100%;
+    
+    }
+    .subscr .BtnSub {
+        text-align: left;
+    }
+    }
+    .logoItmes i{
+        color: var(--mainColor);
+    }
+    .list-group-item {
+        position: relative;
+        display: block;
+        padding: .5rem 1rem;
+        /* color: #212529; */
+        text-decoration: none;
+        background-color: transparent;
+        border:none;
+    }
+    .listGrop ul li{
+        color: #4F5665;
+    }
